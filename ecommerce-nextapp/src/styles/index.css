@@ -1,0 +1,138 @@
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css'; 
+@import 'primeicons/primeicons.css'; 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .home-div{
+    @apply flex gap-2 bg-red-600;
+   }
+   .home-sub {
+    @apply flex flex-col m-auto w-16;
+   }
+   .leftMenu-light {
+    @apply container bg-gray-300 max-h-fit min-h-screen lg:w-2/12 md:w-1/12  pl-6 font-semibold rounded-r-lg;
+   }
+   .leftMenu-dark{
+    @apply container bg-black text-white max-h-fit min-h-screen lg:w-2/12 md:w-1/12 pl-6 font-semibold rounded-r-lg;
+   }
+   .leftMenu-sub{
+    @apply flex flex-row items-center pt-4 mt-1 ml-1;
+   }
+   .leftMenu-sub-header {
+    @apply mt-12 mb-12 ;
+   }
+    .dash-header {
+        @apply text-gray-500 text-sm;
+    }
+    .dash-div{
+        @apply flex flex-row items-center gap-6 mt-2;
+    }
+    .stock-btn{
+        @apply p-button-rounded p-button-danger p-button-sm;
+    }
+    .form-label {
+        @apply block mb-2 font-semibold;
+    }
+    .detail-div{
+        @apply flex justify-center;
+    }
+    .label-txt {
+        @apply font-semibold text-red-700 block mb-1 mt-2;
+    }
+    .edit-container {
+        @apply space-y-3;
+    }
+    .edit-input {
+        @apply p-2 border-2 rounded-lg w-full mb-2;
+    }
+    .edit-btn {
+        @apply mt-4 text-base;
+    }
+    .edit-field {
+        @apply space-y-2;
+    }
+    .myBtn {
+        @apply bg-red-500 text-white py-2 rounded mt-2 ml-2 w-12;
+    }
+    .myContent {
+        @apply grid gap-2 md:grid-cols-3 sm:grid-cols-2 ;
+    }
+    .myContent-light{
+        @apply bg-gray-100 p-6 rounded-lg shadow space-y-2 w-80 h-96;
+    }
+    .myContent-dark{
+        @apply bg-black text-white p-6 rounded-lg shadow space-y-2 w-80 h-96;
+    }
+
+    .myContent-imgDiv{
+        @apply flex gap-4;
+    }
+    .myContent-img {
+        @apply w-full h-40 object-cover rounded-lg mb-2;
+    }
+    
+    .myContent-infos{
+       @apply flex flex-col gap-2 ;
+    }
+    .myContent-lbl {
+        @apply text-lg font-semibold;
+    }
+    .myContent-category{
+        @apply text-gray-500 ;
+    }
+    .icon{
+        @apply cursor-pointer mt-1;
+    }
+    .icons {
+        @apply flex space-x-1;
+    }
+    .table-btns{
+        @apply flex items-center ;
+    }
+    .table-img{
+        @apply w-12 shadow-sm rounded-lg ;
+    }
+    .table-header{
+        @apply flex flex-wrap items-center justify-between gap-2 ;
+    }
+    .header-span{
+        @apply text-xl font-semibold;
+    }
+    .form-input{
+        @apply w-full p-2 border border-gray-300 rounded-md;
+    }
+    .form-input-container{
+        @apply mb-4;
+    }
+    .radio-btn {
+        @apply flex items-center justify-start space-x-4;
+    }
+    .dropdown-select{
+        @apply w-full p-1 border border-gray-300 rounded-md;
+    }
+    .submit-btn {
+        @apply bg-blue-500 text-white w-full p-3 rounded-md;
+    }
+    .incdec-btn{
+        @apply ml-2 space-y-1;
+    } 
+    .toggleBtn-light {
+       @apply p-3 bg-gray-500 text-white rounded-lg
+    }
+    .toggleBtn-dark {
+        @apply p-3 bg-[#fff] text-black rounded-lg
+    }
+    .searchContainer {
+        @apply flex flex-row;
+    }
+    .searchIcon {
+        @apply ml-2 mt-1 text-2xl text-red-500 ;
+    }
+
+}
+
+  
